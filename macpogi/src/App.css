@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: white;
+}
+
+.game {
+  text-align: center;
+  padding-top: 30px;
+}
+
+h1 {
+  color: black;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info p {
+  font-size: 18px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.board button {
+  background-color: gray;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.board button.active {
+  background-color: yellow;
+}
+
+.start {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
